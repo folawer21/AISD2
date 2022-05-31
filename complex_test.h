@@ -1,0 +1,22 @@
+#include "complex.h"
+#include "cassert"
+#include <cmath>
+#ifndef COMPLEX_TEST_H
+#define COMPLEX_TEST_H
+void complex_from_input_test();//Тест для
+void complex_from_complex_test();
+void equality_operator_test();
+void plus_operator_test();
+void minus_operator_test();
+void multiply_operator_test();
+void multiply_on_not_complex_operator_test();
+void divide_test();
+void inequality_operator_test();
+void power_test();
+void set_test();
+void toalg_test();
+void toexp_test();
+void angle_test();
+void abs_test();
+void complex_tests();
+#endif //COMPLEX_TEST_H
